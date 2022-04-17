@@ -1,6 +1,8 @@
+import 'package:drap/pages/budget_planner.dart';
 import 'package:drap/pages/login.dart';
 import 'package:drap/pages/menu.dart';
 import 'package:drap/pages/quadran.dart';
+import 'package:drap/pages/record.dart';
 import 'package:drap/pages/sign_in.dart';
 import 'package:drap/pages/welcome.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   static final List<Widget> _pages = <Widget>[
     const Login(),
-    const Menu(),
+    Record(),
     Quadran(),
   ];
 
